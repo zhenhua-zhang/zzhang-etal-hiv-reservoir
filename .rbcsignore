@@ -1,0 +1,8 @@
+# Excluding the following files
+**/.gitignore
+**/.pylintrc
+**/*.pyc
+
+**/__pycache__/
+**/.env/
+**/.git/

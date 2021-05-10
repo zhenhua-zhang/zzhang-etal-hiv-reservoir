@@ -1,0 +1,23 @@
+{
+    "preprocess": {
+        "phtp_file": "/home/umcg-zzhang/Documents/projects/wp_hiv_reservoir/inputs/phenotype/hiv_reservoir/20190524_HIVreservoir_GENT_withRNADNARatio.csv",
+        "phtp_list": ["RNAHIV_CD4LOG", "DNAHIV_CD4LOG", "RNAvsDNA_CD4LOG"],
+        "cvrt_file": "/home/umcg-zzhang/Documents/projects/wp_hiv_reservoir/inputs/phenotype/trait/metaData_pcntgMnct_ssnlt_CD4CD8TC_CD4NADIR_HIVDuration_cARTDuration_CD4Latest_20200212.csv",
+        "cvrt_list": ["gender", "age", "CD4_NADIR", "HIV_DURATION"],
+        "smpl_id_col": "id",
+        "smpl_idx": null,
+        "smpl_list": null,
+        "smpl_blck_list": ["X1012", "X1053", "X1109", "X1128", "X1129", "X1142", "X1193", "X1009", "X1101", "X1125", "X1126", "X1150"],
+        "trans_dict": {
+            "log10": [],
+            "log2": [],
+            "ivrk": [],
+            "orig": ["gender", "age", "CD4_NADIR", "HIV_DURATION", "RNAHIV_CD4LOG", "DNAHIV_CD4LOG", "RNAvsDNA_CD4LOG"]
+        },
+        "transpose": true,
+        "stdv_times": 3,
+        "output_prefix": "/home/umcg-zzhang/Documents/projects/wp_hiv_reservoir/outputs/hiv_res/preprocess/hiv-reservoir",
+        "_temp": []
+    },
+    "qtlmapping": {}
+}
