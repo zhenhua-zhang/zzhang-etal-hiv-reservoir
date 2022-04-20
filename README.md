@@ -1,7 +1,8 @@
----
-title: Scripts used in the HIV-1 reservoir QLT analysis
-author: Zhenhua Zhang
-date: May 10th, 2021
-email: zhenhua.zhang217@gmail.com
----
-To be added
+
+Scripts used in the Z. Zhang etal. *BMC med.* 2021 (https://doi.org/10.1186/s12916-021-02156-5)
+
+Zhenhua Zhang
+
+May 10th, 2020
+
+zhenhua.zhang217@gmail.com
